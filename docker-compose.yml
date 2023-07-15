@@ -4,5 +4,5 @@ services:
       - "80:80"
     volumes:
       - ./myweb:/usr/share/nginx/html
-      - ./default.conf:/etc/nginx/conf.d/
+      - ./default.conf:/etc/nginx/conf.d/default.conf
     image: nginx:alpine
