@@ -5,3 +5,4 @@ services:
     volumes:
       - ./myweb:/usr/share/nginx/html
       - ./default.conf:/etc/nginx/conf.d/
+    image: nginx:alpine
